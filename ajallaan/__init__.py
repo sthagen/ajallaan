@@ -14,7 +14,7 @@ __version_info__ = tuple(
 
 APP_NAME = 'In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket system.'
 APP_ALIAS = 'ajallaan'
-APP_ENV = APP_ALIAS.UPPER()
+APP_ENV = APP_ALIAS.upper()
 APP_VERSION = __version__
 COMMA = ','
 DEBUG = bool(os.getenv(f'{APP_ENV}_DEBUG', ''))
