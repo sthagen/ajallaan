@@ -1,0 +1,10 @@
+---
+packages:
+- anyio
+- certifi
+- certifi
+- h11
+- httpcore
+- idna
+- rfc3986
+- sniffio
