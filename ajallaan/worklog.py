@@ -32,7 +32,7 @@ def behind_the_moon():
     mm = '03'
     end_mm_dd = end_dd[mm]
     user = 'thewun'
-    token = 'süscher'
+    token = None
     max_results = 1000
     wl_user = user
     protocol = 'https'
