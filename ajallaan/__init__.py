@@ -25,6 +25,15 @@ ENCODING = 'utf-8'
 ENCODING_ERRORS_POLICY = 'ignore'
 DEFAULT_CONFIG_NAME = f'.{APP_ALIAS}.json'
 
+API_USER = os.getenv(f'{APP_ENV}_API_USER', '')
+API_TOKEN = os.getenv(f'{APP_ENV}_API_TOKEN', '')
+API_HOST = os.getenv(f'{APP_ENV}_API_HOST', '')
+API_PROTOCOL = os.getenv(f'{APP_ENV}_API_PROTOCOL', 'https')
+API_ROOT = os.getenv(f'{APP_ENV}_API_ROOT', '/rest/com.deniz.jira.worklog/1.0/timesheet/')
+API_PERSPECTIVE = os.getenv(f'{APP_ENV}_API_PERSPECTIVE', 'user')
+
+WORKLOG_AUTHOR = os.getenv(f'{APP_ENV}_WORKLOG_AUTHOR', '')
+
 MAX_PACKED_BYTES = int(os.getenv(f'{APP_ENV}_MAX_PACKED_BYTES', '20_000_000'))
 MAX_UNPACKED_BYTES = int(os.getenv(f'{APP_ENV}_MAX_UNPACKED_BYTES', '200_000_000'))
 
