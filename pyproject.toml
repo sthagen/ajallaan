@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ajallaan"
-version = "2023.4.1"
+version = "2023.4.2"
 description = "In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket system."
 readme = "README.md"
 authors = [
