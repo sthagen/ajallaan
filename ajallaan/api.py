@@ -14,6 +14,7 @@ from ajallaan import (
     DEBUG,
     ENCODING,
     QUIET,
+    Scope,
     VERBOSE,
     WORKLOG_AUTHOR,
     log,
@@ -181,6 +182,7 @@ def process(options: argparse.Namespace):
     elif QUIET:
         log.setLevel(logging.ERROR)
 
+    scope = Scope.LOCAL
     if not (options.user and options.token or API_USER and API_TOKEN):
         log.info('entering local mode as no coherent credentials found')
         in_path = pathlib.Path(options.in_path)
@@ -193,12 +195,20 @@ def process(options: argparse.Namespace):
         except RuntimeError as err:
             log.error(f'parsing path ({in_path}) as json failed with error ({err})')
             return 1
-        log.warning(f'would process {sys.getsizeof(data)} bytes of local data for worker inherent in data')
+        log.warning(
+            f'would process local data of {sys.getsizeof(data)} bytes in host memory'
+            ' for worker inherent in data'
+        )
         return 0
+
+    if options.in_path:
+        log.error('why use api user and token when local input is given - confusion leads to error')
+        return 2
 
     if not options.worker and not WORKLOG_AUTHOR:
         log.info(f'setting worker equal to api user ({options.user})')
         options.worker = options.user or API_USER
 
+    scope = Scope.REMOTE
     log.warning('would fetch the worklog data using the given coordinates and credentials')
     return 0
