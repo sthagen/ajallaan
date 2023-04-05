@@ -25,7 +25,7 @@ keywords = ["developer-tools", "devops"]
 dependencies = [
     "attrs >= 22.2.0",
     "httpx >= 0.23.3",
-    "msgspec >= 0.13.1",
+    "msgspec >= 0.14.0",
 ]
 requires-python = ">=3.9"
 
