@@ -24,7 +24,7 @@ classifiers = [
 keywords = ["developer-tools", "devops"]
 dependencies = [
     "attrs >= 22.2.0",
-    "httpx >= 0.23.3",
+    "httpx >= 0.24.0",
     "msgspec >= 0.14.1",
 ]
 requires-python = ">=3.9"
