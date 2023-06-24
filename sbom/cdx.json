@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:a3510ae7-895b-4324-a554-18b0f5b6d9ae",
+  "serialNumber": "urn:uuid:d15eef46-6a1d-47f0-a72c-d8b427a8a82e",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-04-02T20:08:23.813071+00:00",
+    "timestamp": "2023-06-24T20:30:40.030910+00:00",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -56,37 +56,37 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "052e1c32-baf4-48dc-bb55-8f35cb35b71c",
+      "bom-ref": "c228926b-449d-47f4-b2b9-5e333910d945",
       "name": "attrs",
-      "version": "22.2.0",
-      "purl": "pkg:pypi/attrs@22.2.0"
+      "version": "23.1.0",
+      "purl": "pkg:pypi/attrs@23.1.0"
     },
     {
       "type": "library",
-      "bom-ref": "430e335f-15ef-494a-b2e9-5ce073aff3e1",
+      "bom-ref": "ea0294a8-3b99-4bda-8afe-c29343544031",
       "name": "httpx",
-      "version": "0.23.3",
-      "purl": "pkg:pypi/httpx@0.23.3"
+      "version": "0.24.1",
+      "purl": "pkg:pypi/httpx@0.24.1"
     },
     {
       "type": "library",
-      "bom-ref": "fec1f419-e654-4a53-9666-a0dfcf8d06a7",
+      "bom-ref": "4bc9d9fa-6749-4677-8a90-f0f862e8c19e",
       "name": "msgspec",
-      "version": "0.13.1",
-      "purl": "pkg:pypi/msgspec@0.13.1"
+      "version": "0.16.0",
+      "purl": "pkg:pypi/msgspec@0.16.0"
     }
   ],
   "dependencies": [
     {
-      "ref": "052e1c32-baf4-48dc-bb55-8f35cb35b71c",
+      "ref": "c228926b-449d-47f4-b2b9-5e333910d945",
       "dependsOn": []
     },
     {
-      "ref": "430e335f-15ef-494a-b2e9-5ce073aff3e1",
+      "ref": "ea0294a8-3b99-4bda-8afe-c29343544031",
       "dependsOn": []
     },
     {
-      "ref": "fec1f419-e654-4a53-9666-a0dfcf8d06a7",
+      "ref": "4bc9d9fa-6749-4677-8a90-f0f862e8c19e",
       "dependsOn": []
     }
   ]
