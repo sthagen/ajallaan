@@ -11,6 +11,7 @@ Third party dependencies are documented in the folder [third-party](docs/third-p
 [![wheel](https://img.shields.io/pypi/wheel/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
+[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/ajallaan.svg?style=flat)](https://git.sr.ht/~sthagen/ajallaan/log)
 
 ## Documentation
 
