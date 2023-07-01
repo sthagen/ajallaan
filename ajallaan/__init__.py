@@ -13,15 +13,15 @@ __version_info__ = tuple(
     e if '-' not in e else e.split('-')[0] for part in __version__.split('+') for e in part.split('.') if e != 'parent'
 )
 
+
 class Scope(Enum):
     LOCAL = 0
     REMOTE = 1
 
-APP_NAME = 'In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket system.'
-APP_ALIAS = 'ajallaan'
+
+APP_ALIAS = str(pathlib.Path(__file__).parent.name)
 APP_ENV = APP_ALIAS.upper()
-APP_VERSION = __version__
-COMMA = ','
+APP_NAME = locals()['__doc__']
 DEBUG = bool(os.getenv(f'{APP_ENV}_DEBUG', ''))
 VERBOSE = bool(os.getenv(f'{APP_ENV}_VERBOSE', ''))
 QUIET = False
@@ -29,6 +29,9 @@ STRICT = bool(os.getenv(f'{APP_ENV}_STRICT', ''))
 ENCODING = 'utf-8'
 ENCODING_ERRORS_POLICY = 'ignore'
 DEFAULT_CONFIG_NAME = f'.{APP_ALIAS}.json'
+
+APP_VERSION = __version__
+COMMA = ','
 
 API_USER = os.getenv(f'{APP_ENV}_API_USER', '')
 API_TOKEN = os.getenv(f'{APP_ENV}_API_TOKEN', '')
