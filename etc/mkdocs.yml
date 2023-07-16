@@ -1,5 +1,7 @@
 site_name: Ajallaan
 site_description: "In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket system."
+docs_dir: ../docs
+site_dir: ../site
 
 theme:
   name: 'material'
