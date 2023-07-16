@@ -11,7 +11,10 @@ from typing import no_type_check
 from ajallaan import (
     API_TOKEN,
     API_USER,
+    DEBUG,
     ENCODING,
+    QUIET,
+    VERBOSE,
     WORKLOG_AUTHOR,
     log,
 )
