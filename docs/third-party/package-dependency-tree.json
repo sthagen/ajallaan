@@ -15,22 +15,29 @@
             {
                 "key": "certifi",
                 "package_name": "certifi",
-                "installed_version": "2022.12.7",
+                "installed_version": "2023.5.7",
                 "required_version": "Any",
                 "dependencies": []
             },
             {
                 "key": "httpcore",
                 "package_name": "httpcore",
-                "installed_version": "0.16.3",
+                "installed_version": "0.17.3",
                 "required_version": ">=0.15.0,<0.18.0",
                 "dependencies": [
                     {
                         "key": "anyio",
                         "package_name": "anyio",
-                        "installed_version": "3.6.2",
+                        "installed_version": "3.7.1",
                         "required_version": ">=3.0,<5.0",
                         "dependencies": [
+                            {
+                                "key": "exceptiongroup",
+                                "package_name": "exceptiongroup",
+                                "installed_version": "1.1.2",
+                                "required_version": "Any",
+                                "dependencies": []
+                            },
                             {
                                 "key": "idna",
                                 "package_name": "idna",
@@ -50,7 +57,7 @@
                     {
                         "key": "certifi",
                         "package_name": "certifi",
-                        "installed_version": "2022.12.7",
+                        "installed_version": "2023.5.7",
                         "required_version": "Any",
                         "dependencies": []
                     },
