@@ -1,0 +1,14 @@
+name: ajallaan
+description: In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket system.
+license_spdx: MIT
+version: 2023.4.2
+spec_version: 1.0
+home_url: https://git.sr.ht/~sthagen/ajallaan
+news_url: https://libraries.io/pypi/ajallaan/versions.atom
+date: 2023-04-02
+about_resource: ./
+libraries_io_url: https://libraries.io/pypi/ajallaan?number=2023.4.2
+vcs_tool: git
+vcs_repository: https://git.sr.ht/~sthagen/ajallaan
+vcs_branch: default
+
