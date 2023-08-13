@@ -11,4 +11,4 @@ httpx==0.24.1
 │   └── sniffio [required: ==1.*, installed: 1.3.0]
 ├── idna [required: Any, installed: 3.4]
 └── sniffio [required: Any, installed: 1.3.0]
-msgspec==0.16.0
+msgspec==0.18.0
