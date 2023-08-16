@@ -18,6 +18,6 @@ digraph {
 	httpx -> sniffio [label=any]
 	httpx [label="httpx\n0.24.1"]
 	idna [label="idna\n3.4"]
-	msgspec [label="msgspec\n0.18.0"]
+	msgspec [label="msgspec\n0.18.1"]
 	sniffio [label="sniffio\n1.3.0"]
 }
