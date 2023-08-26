@@ -7,7 +7,7 @@ In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket sy
 Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
-[![downloads](https://pepy.tech/badge/ajallaan/month)](https://pepy.tech/project/ajallaan)
+[![downloads](https://static.pepy.tech/badge/ajallaan/month)](https://pepy.tech/project/ajallaan)
 [![wheel](https://img.shields.io/pypi/wheel/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
