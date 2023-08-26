@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/ajallaan/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([32e5c03b ...](https://git.sr.ht/~sthagen/ajallaan/blob/default/etc/sbom/cdx.json.sha256 "sha256:32e5c03bffb3402ac1a5a3c0334a6596da3743053b9473fe1409ab4be2a2b890")).
-<!--[[[end]]] (checksum: dfbc4ed8d952e65c9dc6fb8a986d1323)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/ajallaan/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([ecf70554 ...](https://git.sr.ht/~sthagen/ajallaan/blob/default/etc/sbom/cdx.json.sha256 "sha256:ecf70554651f310e38033671ec65387139c4fefb212b345abcdab70d3fc56916")).
+<!--[[[end]]] (checksum: 0f3e2c1b4c577bd3cdf072968bf9bdd7)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -14,8 +14,8 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 |:--------------------------------------------------------|:---------------------------------------------------|:------------|:-----------------------------------|:---------------------------------------------------------------------------------------------------------|
 | [attrs](https://www.attrs.org/en/stable/changelog.html) | [23.1.0](https://pypi.org/project/attrs/23.1.0/)   | MIT License | Hynek Schlawack <hs@ox.cx>         | Classes Without Boilerplate                                                                              |
 | [httpx](https://github.com/encode/httpx)                | [0.24.1](https://pypi.org/project/httpx/0.24.1/)   | BSD License | Tom Christie <tom@tomchristie.com> | The next generation HTTP client.                                                                         |
-| [msgspec](https://jcristharif.com/msgspec/)             | [0.18.1](https://pypi.org/project/msgspec/0.18.1/) | BSD License | Jim Crist-Harif                    | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
-<!--[[[end]]] (checksum: c39a022dba784b1540b9fffc8521e62e)-->
+| [msgspec](https://jcristharif.com/msgspec/)             | [0.18.2](https://pypi.org/project/msgspec/0.18.2/) | BSD License | Jim Crist-Harif                    | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
+<!--[[[end]]] (checksum: d1487cf86505acc1c7945c07e2440652)-->
 
 ### Indirect Dependencies
 
@@ -58,6 +58,6 @@ httpx==0.24.1
 │   └── sniffio [required: ==1.*, installed: 1.3.0]
 ├── idna [required: Any, installed: 3.4]
 └── sniffio [required: Any, installed: 1.3.0]
-msgspec==0.18.1
+msgspec==0.18.2
 ````
-<!--[[[end]]] (checksum: 827032eb22376e97cef4d59b11addfa5)-->
+<!--[[[end]]] (checksum: 4055da2932f5f8d4e2ca6e0b7ca11957)-->
