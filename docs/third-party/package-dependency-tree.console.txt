@@ -1,7 +1,7 @@
 attrs==23.1.0
-httpx==0.24.1
+httpx==0.25.0
 ├── certifi [required: Any, installed: 2023.5.7]
-├── httpcore [required: >=0.15.0,<0.18.0, installed: 0.17.3]
+├── httpcore [required: >=0.18.0,<0.19.0, installed: 0.18.0]
 │   ├── anyio [required: >=3.0,<5.0, installed: 3.7.1]
 │   │   ├── exceptiongroup [required: Any, installed: 1.1.2]
 │   │   ├── idna [required: >=2.8, installed: 3.4]

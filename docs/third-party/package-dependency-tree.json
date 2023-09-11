@@ -9,8 +9,8 @@
     {
         "key": "httpx",
         "package_name": "httpx",
-        "installed_version": "0.24.1",
-        "required_version": "0.24.1",
+        "installed_version": "0.25.0",
+        "required_version": "0.25.0",
         "dependencies": [
             {
                 "key": "certifi",
@@ -22,8 +22,8 @@
             {
                 "key": "httpcore",
                 "package_name": "httpcore",
-                "installed_version": "0.17.3",
-                "required_version": ">=0.15.0,<0.18.0",
+                "installed_version": "0.18.0",
+                "required_version": ">=0.18.0,<0.19.0",
                 "dependencies": [
                     {
                         "key": "anyio",
