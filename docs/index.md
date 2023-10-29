@@ -2,18 +2,15 @@
 
 In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket system.
 
-[License: MIT](https://git.sr.ht/~sthagen/ajallaan/tree/default/item/LICENSE) |
-[Country of origin: Switzerland](https://git.sr.ht/~sthagen/ajallaan/tree/default/item/COUNTRY-OF-ORIGIN) |
-[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/ajallaan/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![license](badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/ajallaanNAME/tree/default/item/LICENSE)
+[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/ajallaanNAME/tree/default/item/COUNTRY-OF-ORIGIN)
+[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/ajallaanNAME/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
-
-[![version](https://img.shields.io/pypi/v/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
-[![downloads](https://static.pepy.tech/badge/ajallaan/month)](https://pepy.tech/project/ajallaan)
-[![wheel](https://img.shields.io/pypi/wheel/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
-[![supported-versions](https://img.shields.io/pypi/pyversions/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
-[![supported-implementations](https://img.shields.io/pypi/implementation/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
-[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/ajallaan.svg?style=flat)](https://git.sr.ht/~sthagen/ajallaan/log)
+[![Version](https://img.shields.io/pypi/v/ajallaanNAME.svg?style=flat)](https://pypi.python.org/pypi/ajallaanNAME/)
+[![Downloads](https://static.pepy.tech/badge/ajallaanNAME/month)](https://pepy.tech/project/ajallaanNAME)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/ajallaanNAME.svg?style=flat)](https://pypi.python.org/pypi/ajallaanNAME/)
+[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/ajallaanNAME.svg?style=flat)](https://git.sr.ht/~sthagen/ajallaanNAME/log)
 
 ## Bug Tracker
 
