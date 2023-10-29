@@ -2,15 +2,15 @@
 
 In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket system.
 
-[![license](badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/ajallaanNAME/tree/default/item/LICENSE)
-[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/ajallaanNAME/tree/default/item/COUNTRY-OF-ORIGIN)
-[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/ajallaanNAME/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![license](badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/ajallaan/tree/default/item/LICENSE)
+[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/ajallaan/tree/default/item/COUNTRY-OF-ORIGIN)
+[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/ajallaan/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 [![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-[![Version](https://img.shields.io/pypi/v/ajallaanNAME.svg?style=flat)](https://pypi.python.org/pypi/ajallaanNAME/)
-[![Downloads](https://static.pepy.tech/badge/ajallaanNAME/month)](https://pepy.tech/project/ajallaanNAME)
-[![Supported Versions](https://img.shields.io/pypi/pyversions/ajallaanNAME.svg?style=flat)](https://pypi.python.org/pypi/ajallaanNAME/)
-[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/ajallaanNAME.svg?style=flat)](https://git.sr.ht/~sthagen/ajallaanNAME/log)
+[![Version](https://img.shields.io/pypi/v/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
+[![Downloads](https://static.pepy.tech/badge/ajallaan/month)](https://pepy.tech/project/ajallaan)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
+[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/ajallaan.svg?style=flat)](https://git.sr.ht/~sthagen/ajallaan/log)
 
 ## Bug Tracker
 
