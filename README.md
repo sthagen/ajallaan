@@ -8,7 +8,7 @@ In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket sy
 [![Configuration](docs/badges/configuration-sbom.svg)](https://git.sr.ht/~sthagen/ajallaan/tree/default/item/docs/third-party/README.md)
 
 [![Version](https://img.shields.io/pypi/v/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
-[![Downloads](https://static.pepy.tech/badge/ajallaan/month)](https://pepy.tech/project/ajallaan)
+[![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/ajallaan)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/ajallaan.svg?style=flat)](https://pypi.python.org/pypi/ajallaan/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/ajallaan/log)
 
