@@ -1,7 +1,7 @@
 {
   "ajallaan": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:13:13.321145",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 15:49:24 +00:00",
     "branch_coverage": false,
     "show_contexts": true,
     "covered_lines": 0,
@@ -9,6 +9,27 @@
     "percent_covered": 0,
     "percent_covered_display": "0.00",
     "missing_lines": 248,
-    "excluded_lines": 1
+    "excluded_lines": 1,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 8,
+    "files": [
+      "ajallaan/__init__.py",
+      "ajallaan/api.py",
+      "ajallaan/cli.py",
+      "ajallaan/entry.py",
+      "ajallaan/epics.py",
+      "ajallaan/tree.py",
+      "ajallaan/workdays.py",
+      "ajallaan/worklog.py"
+    ],
+    "blake3": "0739faf554b7398b35e2b22dc1f62249bad5014676f47da074adfa9b798c857e",
+    "blake2": "ce15fa637f8de422a3c84e2da72ac57a2173ef4dbbb611f0e6ad9995c096f2b7716f84f58a353c509503ae892e643a6fa0d96fb6e0fc0a3dc2ff76cf1c837a56",
+    "sha512": "9dd3e7207d2184348c181429002c0af70c453b6e24ea9de4cc564230788b8bb2e31408a1b6d29dc3f5f30450f03a5e6d0c85c846735a112bb488e59b5700d256",
+    "sha384": "e22967d044ff89489ac9800d5ddd7ab4465c1b1c067d59c24fe8094f6c90520ce3c99bcdec0328651ec7303ef5f229f7",
+    "sha256": "0ae218cc5674e2b3119559a31785e579e89dd633ef09fc63bc35701f1d0ae378",
+    "sha1": "2b7284dc2dec48c685cd8b5d1d63b9314d77753b",
+    "md5": "282d11736fd808738b97d9ce1360b297",
+    "python_version": "3.10.12",
+    "entropy": 5.032199
   }
 }
