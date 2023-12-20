@@ -15,7 +15,7 @@ digraph {
 	httpx -> httpcore [label="==1.*"]
 	httpx -> idna [label=any]
 	httpx -> sniffio [label=any]
-	httpx [label="httpx\n0.25.2"]
+	httpx [label="httpx\n0.26.0"]
 	idna [label="idna\n3.4"]
 	msgspec [label="msgspec\n0.18.5"]
 	sniffio [label="sniffio\n1.3.0"]

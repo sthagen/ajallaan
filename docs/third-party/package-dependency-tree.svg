@@ -20,7 +20,7 @@
 <title>httpx</title>
 <ellipse fill="none" stroke="black" cx="259.75" cy="-249.96" rx="35.71" ry="28.99"/>
 <text text-anchor="middle" x="259.75" y="-253.16" font-family="Times,serif" font-size="14.00">httpx</text>
-<text text-anchor="middle" x="259.75" y="-236.66" font-family="Times,serif" font-size="14.00">0.25.2</text>
+<text text-anchor="middle" x="259.75" y="-236.66" font-family="Times,serif" font-size="14.00">0.26.0</text>
 </g>
 <!-- anyio -->
 <g id="node3" class="node">
