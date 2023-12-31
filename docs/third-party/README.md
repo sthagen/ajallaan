@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/ajallaan/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([e274e4c6 ...](https://git.sr.ht/~sthagen/ajallaan/blob/default/etc/sbom/cdx.json.sha256 "sha256:e274e4c615efe59f498898302552d4ca6ee6073fe2895baeeaee900cb833ebfe")).
-<!--[[[end]]] (checksum: f4937726cb69c741bd31987e7b2ed6fc)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/ajallaan/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([99a9094a ...](https://git.sr.ht/~sthagen/ajallaan/blob/default/etc/sbom/cdx.json.sha256 "sha256:99a9094ab01331fadb7e1a7d0785e62245b5c71a832fb189919ed9a7c175857b")).
+<!--[[[end]]] (checksum: 95b36a6f0ab8aded16b438386d7a5c50)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -12,10 +12,10 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 <!--[[[fill direct_dependencies_table()]]]-->
 | Name                                                    | Version                                            | License     | Author                             | Description (from packaging data)                                                                        |
 |:--------------------------------------------------------|:---------------------------------------------------|:------------|:-----------------------------------|:---------------------------------------------------------------------------------------------------------|
-| [attrs](https://www.attrs.org/en/stable/changelog.html) | [23.1.0](https://pypi.org/project/attrs/23.1.0/)   | MIT License | Hynek Schlawack <hs@ox.cx>         | Classes Without Boilerplate                                                                              |
+| [attrs](https://www.attrs.org/en/stable/changelog.html) | [23.2.0](https://pypi.org/project/attrs/23.2.0/)   | MIT License | Hynek Schlawack <hs@ox.cx>         | Classes Without Boilerplate                                                                              |
 | [httpx](https://github.com/encode/httpx)                | [0.26.0](https://pypi.org/project/httpx/0.26.0/)   | BSD License | Tom Christie <tom@tomchristie.com> | The next generation HTTP client.                                                                         |
 | [msgspec](https://jcristharif.com/msgspec/)             | [0.18.5](https://pypi.org/project/msgspec/0.18.5/) | BSD License | Jim Crist-Harif                    | A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML. |
-<!--[[[end]]] (checksum: 1842af22650e164415fecdcff3d9bfac)-->
+<!--[[[end]]] (checksum: c801b10323f07403115f1f504a203c80)-->
 
 ### Indirect Dependencies
 
@@ -45,7 +45,7 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
-attrs==23.1.0
+attrs==23.2.0
 httpx==0.26.0
 ├── anyio [required: Any, installed: 3.7.1]
 │   ├── exceptiongroup [required: Any, installed: 1.1.2]
@@ -59,4 +59,4 @@ httpx==0.26.0
 └── sniffio [required: Any, installed: 1.3.0]
 msgspec==0.18.5
 ````
-<!--[[[end]]] (checksum: e0750f1dae107acfd74a58c0ddb9c163)-->
+<!--[[[end]]] (checksum: 5cad150d69e6b3580cc972ba9c968595)-->

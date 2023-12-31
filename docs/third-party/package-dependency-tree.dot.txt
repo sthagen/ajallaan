@@ -3,7 +3,7 @@ digraph {
 	anyio -> idna [label=">=2.8"]
 	anyio -> sniffio [label=">=1.1"]
 	anyio [label="anyio\n3.7.1"]
-	attrs [label="attrs\n23.1.0"]
+	attrs [label="attrs\n23.2.0"]
 	certifi [label="certifi\n2023.5.7"]
 	exceptiongroup [label="exceptiongroup\n1.1.2"]
 	h11 [label="h11\n0.14.0"]

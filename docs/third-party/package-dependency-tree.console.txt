@@ -1,4 +1,4 @@
-attrs==23.1.0
+attrs==23.2.0
 httpx==0.26.0
 ├── anyio [required: Any, installed: 3.7.1]
 │   ├── exceptiongroup [required: Any, installed: 1.1.2]

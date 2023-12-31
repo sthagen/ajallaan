@@ -13,7 +13,7 @@
 <title>attrs</title>
 <ellipse fill="none" stroke="black" cx="170.75" cy="-249.96" rx="35.71" ry="28.99"/>
 <text text-anchor="middle" x="170.75" y="-253.16" font-family="Times,serif" font-size="14.00">attrs</text>
-<text text-anchor="middle" x="170.75" y="-236.66" font-family="Times,serif" font-size="14.00">23.1.0</text>
+<text text-anchor="middle" x="170.75" y="-236.66" font-family="Times,serif" font-size="14.00">23.2.0</text>
 </g>
 <!-- httpx -->
 <g id="node2" class="node">
