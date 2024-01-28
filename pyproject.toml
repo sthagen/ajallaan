@@ -7,6 +7,7 @@ name = "ajallaan"
 version = "2023.4.2"
 description = "In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket system."
 readme = "README.md"
+license = {file = "LICENSE"}
 authors = [
     { name = "Stefan Hagen", email = "stefan@hagen.link" },
 ]
