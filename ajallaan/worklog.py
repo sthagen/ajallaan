@@ -1,4 +1,5 @@
 """In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket system - fetch worklog"""
+
 import datetime as dti
 import json
 from typing import no_type_check

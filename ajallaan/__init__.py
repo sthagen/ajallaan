@@ -1,4 +1,5 @@
 """In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket system."""
+
 import datetime as dti
 import logging
 import os

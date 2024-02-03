@@ -1,4 +1,5 @@
 """In due time (Finnish: ajallaan) - reporting on worklog entries of some ticket system - api"""
+
 import argparse
 import datetime as dti
 import json
@@ -160,25 +161,19 @@ def process(options: argparse.Namespace):
         log.error('no data given to process')
         return 1
 
-    global DEBUG
-    if options.debug:
-        DEBUG = True
+    debug = options.debug if options.debug else DEBUG
+    verbose = options.verbose if options.verbose else VERBOSE
+    quiet = options.quiet if options.quiet else QUIET
 
-    global VERBOSE
-    if options.verbose:
-        VERBOSE = True
+    if quiet:
+        debug = verbose = not quiet
 
-    global QUIET
-    if options.quiet:
-        QUIET = True
-
-    if QUIET:
-        DEBUG = VERBOSE = not QUIET
-
-    if DEBUG:
+    if debug:
         log.setLevel(logging.DEBUG)
         log.debug('log level debug requested')
-    elif QUIET:
+    elif verbose:
+        log.setLevel(logging.INFO)
+    elif quiet:
         log.setLevel(logging.ERROR)
 
     if not (options.user and options.token or API_USER and API_TOKEN):
