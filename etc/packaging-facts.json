@@ -20,6 +20,7 @@
       "last_month": -1,
       "last_week": -1
     },
+    "dynamic": null,
     "home_page": "",
     "keywords": "developer-tools,devops",
     "license": "",
@@ -36,6 +37,7 @@
       "Source-Code": "https://git.sr.ht/~sthagen/ajallaan",
       "Test-Coverage": "https://codes.dilettant.life/coverage/ajallaan"
     },
+    "provides_extra": null,
     "release_url": "https://pypi.org/project/ajallaan/2023.4.2/",
     "requires_dist": [
       "attrs (>=22.2.0)",
